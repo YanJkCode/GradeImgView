@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="GradeImgView">
+        <!--使用系统的宽高属性-->
+        <attr name="android:layout_width" />
+        <attr name="android:layout_height" />
+
+        <attr name="pitchImg" format="reference" />
+        <attr name="notImg" format="reference" />
+        <attr name="max" format="integer" />
+        <attr name="gradeNum" format="integer" />
+        <attr name="openGrade" format="boolean" />
+        <attr name="leftPadding" format="dimension" />
+        <attr name="rightPadding" format="dimension" />
+        <attr name="topPadding" format="dimension" />
+        <attr name="bottomPadding" format="dimension" />
+
+    </declare-styleable>
+
+
+</resources>
